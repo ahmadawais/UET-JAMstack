@@ -1,9 +1,35 @@
-# gatsby-starter-blog
+# UET-JAMstack
+
 Gatsby starter for creating a blog
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+## Pre-requisite
 
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+⬇️ [Download & Install Node.js →](https://nodejs.org/)
 
-## Running in development
-`gatsby develop`
+## Install Gatsby's command line tool
+
+Run the following in your terminal (Make):
+
+`npm install --global gatsby-cli`
+
+## Getting started
+
+
+```shell
+# 1. Install Gatsby CLI globally.
+npm install --global gatsby-cli
+
+# 2. Create a new Gatsby blog.
+gatsby new blog gatsbyjs/gatsby-starter-blog
+
+# 3. Browse the new blog folder.
+cd blog
+
+# 4. Start the gatsby
+gatsby develop
+
+# 5. To build gatsby site
+gatsby build
+```
+
+📖 Read the [documentation →](https://www.gatsbyjs.org/docs/)
